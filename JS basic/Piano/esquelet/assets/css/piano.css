@@ -1,4 +1,12 @@
 /*css tret de https://github.com/LFeh/piano/blob/master/dev/assets/css/style.css*/
+
+body{
+    font-family: "Gill Sans", sans-serif;
+    background-image: url('../img/background/background11.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
 .piano {
     background: -webkit-linear-gradient(-65deg, #000000, #222222, #000000, #666666, #222222 75%);
     background: -moz-linear-gradient(-65deg, #000000, #222222, #000000, #666666, #222222 75%);
@@ -65,3 +73,57 @@
     border-bottom-width: 3px;
     top: 0;
 }
+
+
+.piano{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.search_container{
+    padding: 10pt;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+}
+
+.cercador{
+    text-align: center;
+}
+
+.resultats{
+    text-align: center;
+}
+
+.titulo_buscador{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0366b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #e50000;
+    color: white;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    
+}
+
+
