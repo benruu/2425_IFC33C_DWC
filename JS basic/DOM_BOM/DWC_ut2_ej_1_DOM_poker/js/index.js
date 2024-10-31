@@ -9,13 +9,10 @@ for (let palo of palos) {
     }
 }
 
-
-
 function barajar_cartas() {
     baraja.sort(() => Math.random() - 0.5);
     
 }
-
 
 function jugar() {
     let div = document.querySelector("#cartas");
@@ -39,13 +36,11 @@ function jugar() {
     
     let contador = {};
     let hayRepetido = false;
-    
-    console.log(contador);
-    for (let naipe of mano) {
-        if (contador[naipe]) {
-            contador[naipe]++;
-            hayRepetido = true;
-            break;
+        for (let naipe of mano) {
+            if (contador[naipe]) {
+                contador[naipe]++;
+                hayRepetido = true;
+                break;
         } else {
             contador[naipe] = 1;
         }
