@@ -2,7 +2,7 @@ let alumnos = [
     {
         "Nombre": "Ruben",
         "Edad": 22,
-        "Email": "rubenespinar@paucasesnovescifp.cat"
+        "Email": "rubenespinar@paucasesnovescifp.cat",
     },
     {
         "Nombre": "Hernan",
