@@ -144,10 +144,6 @@ const tablaMultiplicar = (numero) => {
     table.appendChild(thead);
 
 
-
-
-
-    
     for (let x = 1; x < 11; x++){
         const tr = document.createElement("tr");
 
@@ -165,4 +161,4 @@ const tablaMultiplicar = (numero) => {
     body.appendChild(table);
 }
 
-tablaMultiplicar(8);
+tablaMultiplicar(6);
