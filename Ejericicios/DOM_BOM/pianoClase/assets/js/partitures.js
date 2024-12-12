@@ -75,16 +75,34 @@ for (let i = 0; i < partituras.length; i++) {
     tr.appendChild(td2);
 
     let tdAccions = document.createElement("td");
-    
+
+    let iEditar = document.createElement("i");
+    iEditar.className = "fa-solid fa-pen-to-square";
+
     let aEditar = document.createElement("a");
     aEditar.href = "#"
     aEditar.appendChild(document.createTextNode("Editar"));
+    aEditar.style.marginRight = "10px";
+    
+    let iEliminar = document.createElement("i");
+    iEliminar.className = "fa-solid fa-trash";
 
     let aElimnar = document.createElement("a");
     aElimnar.href = "#"
     aElimnar.appendChild(document.createTextNode("Eliminar"));
+    aElimnar.addEventListener("click", () =>{
+        const confirmar = confirm("Esta segur que vol eliminar aquesta partitura?");
+        if (confirmar){
+            alert("Partitura eliminada correctament!");
+        } else {
+            alert("Acció cancel·lada.")
+        }
+    })
+    
 
+    tdAccions.appendChild(iEditar);
     tdAccions.appendChild(aEditar);
+    tdAccions.appendChild(iEliminar);
     tdAccions.appendChild(aElimnar);
     tr.appendChild(tdAccions);
 
@@ -92,5 +110,18 @@ for (let i = 0; i < partituras.length; i++) {
     // Agregar la fila al cuerpo de la tabla
     tbody.appendChild(tr);
 
-    
 }
+
+const login = document.getElementById("login");
+login.addEventListener("click", () => {
+    let width = 700;
+    let height = 500;
+    let screenWidth = window.innerWidth;
+    let screenHeight = window.innerHeight;
+
+    let left = (screenWidth - width) / 2;
+    let top = (screenHeight - height) / 2;
+    console.log(`left: ${left}, top: ${top}, width: ${width}, height: ${height}`);
+    window.open("./login.html", '_blank', `width=${width},height=${height},left=${left},top=${top}`);
+
+})

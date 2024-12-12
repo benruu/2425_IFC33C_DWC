@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/background/background11.jpg);
+}
+
+/* Alinear solo el header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Ajusta según tu diseño */
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+}
+
+.form-container {
+    margin: 0 auto; /* Centrar horizontalmente */
+    width: 80%;
+    text-align: center; 
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+
+

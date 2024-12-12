@@ -12,7 +12,6 @@ function irAdelante(){
 
 function mostrarInfoNavegador(){
     alert("Name: " + window.navigator.appName + "\nLanguage: " + window.navigator.language + "\nOnline: "+ window.navigator.onLine)
-    alert("Nombre: " + nombreNav)
 }
 
 
