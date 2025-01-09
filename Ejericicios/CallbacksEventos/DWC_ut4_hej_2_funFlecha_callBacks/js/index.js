@@ -81,3 +81,15 @@ function tablaEdad(personas){
 }
 
 tablaEdad(personas);
+
+
+let x = [1,2,3,4];
+let cuadrados = []
+
+x.forEach(numero => {
+    cuadrados.push(numero*numero)
+});
+
+console.log(x);
+console.log(cuadrados);
+
