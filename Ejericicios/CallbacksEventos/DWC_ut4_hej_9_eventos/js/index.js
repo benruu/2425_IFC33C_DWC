@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const elemento2 = document.getElementById("elemento2");
     const elemento3 = document.getElementById("elemento3");
 
+    
     elemento1.addEventListener("click", () => {
         alert(`Has hecho click en ${elemento1.innerHTML}`);
         elemento1.innerHTML = "Seleccionado";

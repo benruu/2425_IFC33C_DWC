@@ -1,0 +1,24 @@
+{"Contenedores":[
+    {"Contenedor":"Grande", "Acepta":["Grande ancho", "Grande alto"]},
+    {"Contenedor":"Mediano", "NoAcepta":["Grande ancho", "Grande alto"]},
+    {"Contenedor":"Vertical", "Acepta":["Grande alto", "Mediano alto"]}
+],
+"Envases":[
+    {"Tamaño":"Grande", "Tipo":"ancho", "Apto":"Alimentos"},
+    {"Tamaño":"Grande", "Tipo":"alto", "Apto":"Alimentos"},
+    {"Tamaño":"Mediano", "Tipo":"ancho", "Apto":"Alimentos"},
+    {"Tamaño":"Mediano", "Tipo":"alto", "Apto":"Sustancias corrosivas"},
+    {"Tamaño":"Pequeño", "Tipo":"ancho", "Apto":"Sustancias corrosivas"}
+], 
+"Liquidos":[
+    {"Nombre":"Agua", "Tipo":"Alimento"},
+    {"Nombre":"Leche", "Tipo":"Alimento"},
+    {"Nombre":"Lejia", "Tipo":"Sustancia corrosiva"},
+    {"Nombre":"Amoniaco", "Tipo":"Sustancia corrosiva"},
+    {"Nombre":"Jabon", "Tipo":"Sustancia corrosiva"},
+    {"Nombre":"Aguarras", "Tipo":"Sustancia corrosiva"},
+    {"Nombre":"Gasolina", "Tipo":"Sustancia corrosiva"},
+    {"Nombre":"Aceite", "Tipo":"Alimento"},
+    {"Nombre":"Vinagre", "Tipo":"Alimento"},
+    {"Nombre":"Alcohol", "Tipo":"Sustancia corrosiva"}
+]}

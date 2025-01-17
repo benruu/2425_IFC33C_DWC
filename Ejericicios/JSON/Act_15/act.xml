@@ -1,0 +1,22 @@
+<Contenedores>
+    <Contenedor tipo="Grande">
+        <Acepta>
+            <Envase>Grande ancho</Envase>
+            <Envase>Grande alto</Envase>
+        </Acepta>
+    </Contenedor>
+    <Contenedor tipo="Mediano">
+        <NoAcepta>
+            <Envase>Grande ancho</Envase>
+            <Envase>Grande alto</Envase>
+        </NoAcepta>
+    </Contenedor>
+    <Contenedor tipo="Vertical">
+        <Acepta>
+            <Envase>Grande ancho</Envase>
+            <Envase>Grande alto</Envase>
+        </Acepta>
+    </Contenedor>
+
+
+</Contenedores>
